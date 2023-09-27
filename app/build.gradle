@@ -11,8 +11,8 @@ android {
 //        applicationId "com.oneflow.segment.analytics"
         minSdk 24
         targetSdk 34
-        versionCode 1
-        versionName "2023.09.14"
+        versionCode 2
+        versionName "2023.09.26"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -43,5 +43,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation 'com.segment.analytics.android:analytics:4.11.3'
-    implementation "com.github.1Flow-Inc:1flow-android-sdk:2023.09.01"
+    implementation "com.github.1Flow-Inc:1flow-android-sdk:+"
 }
